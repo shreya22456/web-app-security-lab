@@ -1,0 +1,10 @@
+.DS_Store
+*.pcap
+*.pcapng
+*.har
+*.log
+.env
+.env.*
+!.env.example
+cookies.txt
+browser-profile/
