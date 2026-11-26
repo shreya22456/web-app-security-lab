@@ -14,9 +14,9 @@ Suggested 5–7 minute walkthrough for a portfolio or class submission. Demonstr
 1. **Scope (30 sec):** Show the loopback-only target and explain the authorization boundary.
 2. **HTTP flow (60 sec):** Show one normal request/response and explain method, status, headers, and the role of HTTPS.
 3. **Identity and access (60 sec):** Explain authentication vs. authorization and why every protected server operation needs an authorization check.
-4. **OWASP analysis (90 sec):** Select two categories and describe the risk, defensive control, and safe regression-test question.
-5. **Remediation (90 sec):** Show one secure coding pattern from the guide and the corresponding test expected in an owned application.
-6. **Documentation (60 sec):** Show redacted evidence, severity rationale, recommendation, and verification plan in the report templates.
+4. **OWASP analysis (90 sec):** Explain the static configuration review, its OWASP mapping, and which categories were not assessed.
+5. **Remediation (90 sec):** Show the version-pinned image reference and explain why an immutable digest can improve reproducibility; distinguish this hardening note from an application vulnerability.
+6. **Documentation (60 sec):** Show the report's scope, evidence, limitations, recommendation, and safe verification plan.
 7. **Cleanup (30 sec):** Run `docker compose down` and confirm the lab is stopped.
 
 ## Presenter checklist

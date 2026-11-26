@@ -49,7 +49,7 @@ If the container does not start, inspect `docker compose ps` and `docker compose
 
 ## Deliverable status
 
-The files under `deliverables/` are templates to complete from your own authorized lab observations. No vulnerability scan or finding is claimed by this repository.
+The OWASP analysis and hardening report document a static review of this repository's lab configuration. They do not claim a runtime assessment of Juice Shop. Use the reusable finding template in the report for additional authorized observations, and clearly label untested areas.
 
 ## References
 
